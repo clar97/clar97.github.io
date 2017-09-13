@@ -183,7 +183,9 @@
 	position: relative;
 	text-align: center;
 	margin-top:20% ;
-	left: 100px;
+	left: 10%;
+	padding: 0 20px;
+	width: 80%;
 	}
 	.ef1{
 	overflow: hidden;
@@ -256,8 +258,8 @@
     .ef2 div p{
 	position: relative;
 	color:white;
-	padding: 0 20px;
-	right: -1px;
+	padding: 0 100px;
+	right: -5px;
 	margin-top:30px;
 	text-align:center;
 	transform: translateX(0px);
@@ -304,7 +306,7 @@
 	color:black;
 	text-align: center;
 	margin-top: 40px;
-	right: -10px;
+	right: -15px;
 	transform:  scale(1);
 	transition: .8s;
 	font-family: 'Indie Flower', cursive;
@@ -362,9 +364,9 @@
     }
     .ef4 div p{
 	color:#fff;
-	padding: 0 30px;
+	padding: 0 70px;
 	margin-top: 30px;
-	right: -10px;
+	right: -30px;
 	transform: translateY(0px) ;
 	transition: 0s;
     }
