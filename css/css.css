@@ -125,7 +125,7 @@
 	z-index: 2;
 	}
  	nav{
-	width:15%;
+	width:150px;
 	height:100%;
 	top:50px;
   	position: fixed;
@@ -270,6 +270,7 @@
 	margin-top: 80px;
 	display: inline-block;
 	padding: 15px 30px;
+	left: 20%;
 	background-color: red;
 	transform:translateX(0px); 
 	text-decoration: none;
@@ -314,7 +315,7 @@
 	text-align: center;
 	position: relative;
 	bottom:20px;
-	left: 140px;
+	left: 20%;
 	display: inline-block;
 	padding: 15px 40px;
 	background-color: black;
@@ -368,7 +369,7 @@
 	text-align: center;
 	position: relative;
 	top:100px;
-	left: 130px;
+	left: 20%;
 	display: inline-block;
 	padding: 15px 40px;
 	background-color: black;
