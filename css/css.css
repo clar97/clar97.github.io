@@ -106,7 +106,67 @@
 	border:solid 0px ;
 	font-size: 20pt;
     }
-  
+  .ef1 div h3,.ef6 div h3,.ef7 div h3,.ef8 div h3{
+	position: relative;
+	color: #A3098B;	
+	margin-top:30px;
+	text-align: center;
+	transform: scale(0) ;
+	transition: 2s;
+	font-family: 'Pacifico', cursive;
+	font-size: 30pt;
+    }
+.ef1 div p,.ef6 div p,.ef7 div p,.ef8 div p{
+	position: relative;
+	color:white;
+	margin-top: 30px;
+	padding: 0 100px;
+	text-align: center;
+	transform: scale(0);
+	transition: 2s;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
+    }
+.ef2 div h3,.ef5 div h3,.ef13 div h3,.ef14 div h3{
+ 	position: relative;
+	color:red;
+	margin-top: 50px;
+	transform: translateX(500px);
+	transition: .4s;
+	font-family: 'Pacifico', cursive;
+	font-size: 30pt;
+    }
+.ef2 div p,.ef5 div p,.ef13 div p,.ef14 div p{
+	position: relative;
+	color:white;
+	padding: 0 100px;
+	margin-top:30px;
+	text-align:center;
+	transform: translateX(-500px);
+	transition: .4s;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
+    }
+.ef4 div h3 ,.ef9 div h3 ,.ef10 div h3{
+	position: relative;
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	transform:  translateY(900px);
+	transition: 0s;
+	font-family: 'Pacifico', cursive;
+	font-size:30pt;
+    }
+ .ef4 div p,.ef9 div p,.ef10 div p{
+	color:#fff;
+	padding: 0 70px;
+	margin-top: 30px;
+	left: 200px;
+	transform: translateY(-500px) ;
+	transition: 0s;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20pt;
+    }
    
  
 /*media query*/
@@ -161,6 +221,16 @@
 		width:100%;
 		height: 100%; 
 	}
+	.p{
+	  position: fixed;
+      z-index: 4;
+      left:700px;
+      top:0px;
+      color:#DD01E5;
+      font-family: 'Indie Flower', cursive;
+      font-size: 30pt;
+
+	}
 	.lo1{
     	display: none;
     }
@@ -206,6 +276,8 @@
 	margin-top:50px;
 	text-align: center;
 	transform: none ;
+	font-family: 'Pacifico', cursive;
+	font-size: 30pt;
     }
     .ef1 div p{
 	position: relative;
@@ -441,6 +513,16 @@
  	padding: 0px 1px;
  	margin-top:60px; 
 	}
+	.p{
+	  position: fixed;
+      z-index: 4;
+      left:700px;
+      top:0px;
+      color:#E006DD;
+      font-family: 'Indie Flower', cursive;
+      font-size: 30pt;
+
+	}
 	.lo1{
     	display: none;
     }
@@ -484,14 +566,14 @@
     .ef1 div h3{
 	position: relative;
 	color: #A3098B;	
-	margin-top:50px;
+	margin-top:30px;
 	text-align: center;
 	transform: none ;
     }
     .ef1 div p{
 	position: relative;
 	color:white;
-	margin-top: 50px;
+	margin-top: 30px;
 	padding: 0 100px;
 	text-align: center;
 	transform: none;
@@ -506,7 +588,7 @@
 	border-radius: 0%;
     }
     .ef1 div a{
-	margin-top: 50px;
+	margin-top: 30px;
 	display: inline-block;
 	padding: 15px 30px;
 	background-color: black;
@@ -530,7 +612,7 @@
     .ef2 div h3{
 	position: relative;
 	color:red;
-	margin-top: 50px;
+	margin-top: 30px;
 	transform: translateX(1px);
 	transition: .4s;
     }
@@ -538,7 +620,7 @@
 	position: relative;
 	color:white;
 	padding: 0 100px;
-	margin-top:50px;
+	margin-top:30px;
 	text-align:center;
 	transform: translateX(0px);
     }
@@ -549,7 +631,7 @@
 	transform:none;
     }
     .ef2 div a{
-	margin-top: 80px;
+	margin-top: 30px;
 	display: inline-block;
 	padding: 15px 30px;
 	background-color: red;
@@ -571,7 +653,7 @@
     }
     .ef3 div h3{
 	position: relative;
-	color: black;
+	color: #00FFA2;
 	margin-top:0px;
 	text-align: center;
 	transition: .4s;
@@ -580,7 +662,7 @@
     }
     .ef3 div p{
 	position: relative;
-	color:black;
+	color:#ffffff;
 	text-align: center;
 	margin-top: 20px;
 	padding: 40px 80px;
@@ -630,7 +712,7 @@
 	position: relative;
 	color: black;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 30px;
 	transform:  translateY(0px);
 	transition: 0s;
     }
@@ -649,7 +731,7 @@
     .ef4 div p{
 	color:#fff;
 	padding: 0 70px;
-	margin-top: 50px;
+	margin-top: 30px;
 	left: 200px;
 	transform: translateY(0px) ;
 	transition: 0s;
@@ -661,7 +743,7 @@
     .ef4 div a{
 	text-align: center;
 	position: relative;
-	top:100px;
+	top:50px;
 	left: 120px;
 	display: inline-block;
 	padding: 15px 40px;
